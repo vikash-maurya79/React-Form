@@ -1,0 +1,44 @@
+.mainpage {
+    min-width: 600px;
+    min-height: 500px;
+    border-radius: 15px;
+    background-color: oklch(80.8% 0.114 19.571);
+}
+
+.clickcolor {
+    background-color: oklch(69.6% 0.17 162.48);
+}
+
+.email {
+    background-color: white;
+    height: 2.5rem;
+    border-radius: 15px;
+    width: 15rem;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logindiv {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginbutton {
+    background-color:oklch(69.6% 0.17 162.48) ;
+    width: 15rem;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.signuptag{
+    margin-top: 3rem;
+}
+.buttons button{
+    margin: 15px;
+}
