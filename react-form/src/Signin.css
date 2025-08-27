@@ -1,6 +1,7 @@
+
 .mainpage {
-    min-width: 600px;
-    min-height: 500px;
+    width: 600px;
+    height: 500px;
     border-radius: 15px;
     background-color: oklch(80.8% 0.114 19.571);
 }
@@ -41,4 +42,10 @@
 }
 .buttons button{
     margin: 15px;
+}
+@media(min-width:200px) and (max-width:600px){
+    .mainpage{
+        width: 300px;
+        height: 500px;
+    }
 }
