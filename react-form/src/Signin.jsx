@@ -13,6 +13,7 @@ export default function Signin() {
                 </div>
 
             {click ? <>
+            <form>
             <div className="logindiv">
                <input type="email" className="email" placeholder="Enter email"/>
                <input type="password" className="email" placeholder="Enter password" />
@@ -21,13 +22,15 @@ export default function Signin() {
                </div>
               <a href="#">Forgot password?</a> 
                <p className="signuptag">Not a member? <a href="#" onClick={()=>{setClick(false)}}>Signup</a></p>
-            </>: <>
+                </form></>: <>
+                <form>
             <div className="logindiv">
                 <input type="text" name="" id="" placeholder="Enter your name" className="email"/>
                 <input type="email" name="" id="" placeholder="Enter your email" className="email"/>
                 <input type="password" name="" id="" placeholder="Set your password" className="email"/>
                 <button className="loginbutton">Signup</button>
             </div>
+            </form>
             </>}
             
 
